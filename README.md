@@ -11,7 +11,7 @@ In this project, we worked with a travel company called PLANMYTRIP to create a p
 The purpose of this project is to create a program that will generate an x amount of latitudes and longitudes that will be used to find cities near those points and use the Open Weather Map API to find the weather of those cities. With these cities found, we will have the customer input their preferred weather for their vacation and return a map with markers of the cities that meet that criteria as well as a list of hotels in those cities. Finally, the program will return an itinerary that includes 4 cities that are near each other that meet the customer's criteria as well as a route they can take based on the transportation option they choose.
 
 
-Results:
+## Results:
 
 To test our program and ensure it is returning the correct values , we allowed the minimum temperature to be 40 degrees and the maximum temperature to be 90 degrees. With this criteria, we found a total of 578 cities the customers could visit, and after cleaning out our data, we found a total of 539 cities with hotel options that they could base their itinerary on:
 
@@ -32,7 +32,7 @@ and the map that shows all the information of the hotels in each city is the fol
 
 ![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/111034667/194147712-d794a921-5ee4-493b-8a8f-2632f2e5c499.png)
 
-Summary:
+## Summary:
 
 The program runs succesfully, and the company will be able to meet the customer's criteria for their vacation. To improve the program so that it is more customizable to the customer's request, I wowuld suggest to include the same tactic we used to allow the user to input their desired minimum and maximum temperature to allow the user to input the desired continent/country they want to visit as well as input the desired transportation they want to use. An extra input they could allow customers to type in would be to include the minimum rating they will be accepting for the hotels.By allowing the customers to input their desired choices, the itinerary will be more personalized to each customer and they will be able to choose whether they want to look for more options or not. 
  
